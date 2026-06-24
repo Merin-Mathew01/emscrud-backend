@@ -2,9 +2,7 @@ const data = require('../db.json')
 
 
 
-const getAllemployees = (req,res)=>{
-    res.status(200).json(data.employees)
-}
+
 
 const addEmployee = (req,res)=>{
     try{
@@ -46,6 +44,21 @@ const updateEmployee = (req,res)=>{
     }
 }
 
+const getAllemployees = (req,res)=>{
+    try {
+        const searchText = req.query.search
+        if(searchText){
+            const filteredData = data.employees.filter(emp=>emp.name.toLowerCase().includes(searchText.toLowerCase()) || emp.department.toLowerCase().includes(searchText.toLowerCase()))
+            res.status(200).json(filteredData)
+        }else{
+            res.status(200).json(data.employees)
+        }
+        
+    } catch (error) {
+        console.log(error);
+    }
+}
 
 
-module.exports = {getAllemployees,addEmployee,deleteEmployee,getEmployeeDetails,updateEmployee}
+
+module.exports = {getAllemployees,addEmployee,deleteEmployee,getEmployeeDetails,updateEmployee,getAllemployees}
