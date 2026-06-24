@@ -1,0 +1,32 @@
+{
+    "employees": [
+        {
+            "id":1,
+            "name":"John Doe",
+            "designation":"Software Developer",
+            "department":"IT",
+            "salary":45000
+        },
+        {
+            "id":2,
+            "name":"Jane Smith",
+            "designation":"HR Executive",
+            "department":"HR",
+            "salary":35000
+        },
+        {
+            "id":3,
+            "name":"Michael Johnson",
+            "designation":"Accountant",
+            "department":"Finance",
+            "salary":"40000"
+        },
+        {
+            "id":4,
+            "name":"Philip Sebastian",
+            "designation":"UI/UX Designer",
+            "department":"Design",
+            "salary":"42000"
+        }
+    ]
+}
