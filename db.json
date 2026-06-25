@@ -1,32 +1,704 @@
 {
     "employees": [
-        {
-            "id":1,
-            "name":"John Doe",
-            "designation":"Software Developer",
-            "department":"IT",
-            "salary":45000
-        },
-        {
-            "id":2,
-            "name":"Jane Smith",
-            "designation":"HR Executive",
-            "department":"HR",
-            "salary":35000
-        },
-        {
-            "id":3,
-            "name":"Michael Johnson",
-            "designation":"Accountant",
-            "department":"Finance",
-            "salary":"40000"
-        },
-        {
-            "id":4,
-            "name":"Philip Sebastian",
-            "designation":"UI/UX Designer",
-            "department":"Design",
-            "salary":"42000"
-        }
-    ]
+  {
+    "id": 1,
+    "name": "John Doe",
+    "designation": "Software Developer",
+    "department": "IT",
+    "salary": 45000
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "designation": "QA Engineer",
+    "department": "IT",
+    "salary": 42000
+  },
+  {
+    "id": 3,
+    "name": "Michael Johnson",
+    "designation": "Project Manager",
+    "department": "Management",
+    "salary": 65000
+  },
+  {
+    "id": 4,
+    "name": "Emily Davis",
+    "designation": "Business Analyst",
+    "department": "Business",
+    "salary": 50000
+  },
+  {
+    "id": 5,
+    "name": "Chris Wilson",
+    "designation": "UI/UX Designer",
+    "department": "Design",
+    "salary": 47000
+  },
+  {
+    "id": 6,
+    "name": "Sarah Brown",
+    "designation": "HR Executive",
+    "department": "HR",
+    "salary": 40000
+  },
+  {
+    "id": 7,
+    "name": "David Miller",
+    "designation": "DevOps Engineer",
+    "department": "IT",
+    "salary": 55000
+  },
+  {
+    "id": 8,
+    "name": "Olivia Moore",
+    "designation": "Accountant",
+    "department": "Finance",
+    "salary": 43000
+  },
+  {
+    "id": 9,
+    "name": "Daniel Taylor",
+    "designation": "System Administrator",
+    "department": "IT",
+    "salary": 48000
+  },
+  {
+    "id": 10,
+    "name": "Sophia Anderson",
+    "designation": "Marketing Executive",
+    "department": "Marketing",
+    "salary": 41000
+  },
+  {
+    "id": 11,
+    "name": "Liam Parker",
+    "designation": "Software Developer",
+    "department": "IT",
+    "salary": 41100
+  },
+  {
+    "id": 12,
+    "name": "Emma Thompson",
+    "designation": "QA Engineer",
+    "department": "IT",
+    "salary": 41200
+  },
+  {
+    "id": 13,
+    "name": "Noah Mitchell",
+    "designation": "Business Analyst",
+    "department": "Business",
+    "salary": 41300
+  },
+  {
+    "id": 14,
+    "name": "Olivia Harris",
+    "designation": "HR Executive",
+    "department": "HR",
+    "salary": 41400
+  },
+  {
+    "id": 15,
+    "name": "William Scott",
+    "designation": "Accountant",
+    "department": "Finance",
+    "salary": 41500
+  },
+  {
+    "id": 16,
+    "name": "Sophia Green",
+    "designation": "Software Developer",
+    "department": "IT",
+    "salary": 41600
+  },
+  {
+    "id": 17,
+    "name": "James Adams",
+    "designation": "QA Engineer",
+    "department": "IT",
+    "salary": 41700
+  },
+  {
+    "id": 18,
+    "name": "Ava Baker",
+    "designation": "Business Analyst",
+    "department": "Business",
+    "salary": 41800
+  },
+  {
+    "id": 19,
+    "name": "Benjamin Nelson",
+    "designation": "HR Executive",
+    "department": "HR",
+    "salary": 41900
+  },
+  {
+    "id": 20,
+    "name": "Mia Carter",
+    "designation": "Accountant",
+    "department": "Finance",
+    "salary": 42000
+  },
+  {
+    "id": 21,
+    "name": "Lucas Turner",
+    "designation": "Software Developer",
+    "department": "IT",
+    "salary": 42100
+  },
+  {
+    "id": 22,
+    "name": "Charlotte Phillips",
+    "designation": "QA Engineer",
+    "department": "IT",
+    "salary": 42200
+  },
+  {
+    "id": 23,
+    "name": "Henry Campbell",
+    "designation": "Business Analyst",
+    "department": "Business",
+    "salary": 42300
+  },
+  {
+    "id": 24,
+    "name": "Amelia Roberts",
+    "designation": "HR Executive",
+    "department": "HR",
+    "salary": 42400
+  },
+  {
+    "id": 25,
+    "name": "Alexander Cooper",
+    "designation": "Accountant",
+    "department": "Finance",
+    "salary": 42500
+  },
+  {
+    "id": 26,
+    "name": "Harper Evans",
+    "designation": "Software Developer",
+    "department": "IT",
+    "salary": 42600
+  },
+  {
+    "id": 27,
+    "name": "Michael Murphy",
+    "designation": "QA Engineer",
+    "department": "IT",
+    "salary": 42700
+  },
+  {
+    "id": 28,
+    "name": "Evelyn Edwards",
+    "designation": "Business Analyst",
+    "department": "Business",
+    "salary": 42800
+  },
+  {
+    "id": 29,
+    "name": "Daniel Collins",
+    "designation": "HR Executive",
+    "department": "HR",
+    "salary": 42900
+  },
+  {
+    "id": 30,
+    "name": "Abigail Stewart",
+    "designation": "Accountant",
+    "department": "Finance",
+    "salary": 43000
+  },
+  {
+    "id": 31,
+    "name": "Matthew Sanchez",
+    "designation": "Software Developer",
+    "department": "IT",
+    "salary": 43100
+  },
+  {
+    "id": 32,
+    "name": "Emily Morris",
+    "designation": "QA Engineer",
+    "department": "IT",
+    "salary": 43200
+  },
+  {
+    "id": 33,
+    "name": "Joseph Rogers",
+    "designation": "Business Analyst",
+    "department": "Business",
+    "salary": 43300
+  },
+  {
+    "id": 34,
+    "name": "Elizabeth Reed",
+    "designation": "HR Executive",
+    "department": "HR",
+    "salary": 43400
+  },
+  {
+    "id": 35,
+    "name": "David Cook",
+    "designation": "Accountant",
+    "department": "Finance",
+    "salary": 43500
+  },
+  {
+    "id": 36,
+    "name": "Sofia Morgan",
+    "designation": "Software Developer",
+    "department": "IT",
+    "salary": 43600
+  },
+  {
+    "id": 37,
+    "name": "Samuel Bell",
+    "designation": "QA Engineer",
+    "department": "IT",
+    "salary": 43700
+  },
+  {
+    "id": 38,
+    "name": "Ella Bailey",
+    "designation": "Business Analyst",
+    "department": "Business",
+    "salary": 43800
+  },
+  {
+    "id": 39,
+    "name": "Andrew Richardson",
+    "designation": "HR Executive",
+    "department": "HR",
+    "salary": 43900
+  },
+  {
+    "id": 40,
+    "name": "Grace Cox",
+    "designation": "Accountant",
+    "department": "Finance",
+    "salary": 44000
+  },
+   {
+    "id": 41,
+    "name": "Christopher Howard",
+    "designation": "Software Developer",
+    "department": "IT",
+    "salary": 44100
+  },
+  {
+    "id": 42,
+    "name": "Chloe Ward",
+    "designation": "QA Engineer",
+    "department": "IT",
+    "salary": 44200
+  },
+  {
+    "id": 43,
+    "name": "Joshua Torres",
+    "designation": "Business Analyst",
+    "department": "Business",
+    "salary": 44300
+  },
+  {
+    "id": 44,
+    "name": "Victoria Peterson",
+    "designation": "HR Executive",
+    "department": "HR",
+    "salary": 44400
+  },
+  {
+    "id": 45,
+    "name": "Nathan Gray",
+    "designation": "Accountant",
+    "department": "Finance",
+    "salary": 44500
+  },
+  {
+    "id": 46,
+    "name": "Lily Ramirez",
+    "designation": "Software Developer",
+    "department": "IT",
+    "salary": 44600
+  },
+  {
+    "id": 47,
+    "name": "Ryan James",
+    "designation": "QA Engineer",
+    "department": "IT",
+    "salary": 44700
+  },
+  {
+    "id": 48,
+    "name": "Hannah Watson",
+    "designation": "Business Analyst",
+    "department": "Business",
+    "salary": 44800
+  },
+  {
+    "id": 49,
+    "name": "Christian Brooks",
+    "designation": "HR Executive",
+    "department": "HR",
+    "salary": 44900
+  },
+  {
+    "id": 50,
+    "name": "Zoe Kelly",
+    "designation": "Accountant",
+    "department": "Finance",
+    "salary": 45000
+  },
+  {
+    "id": 51,
+    "name": "Jonathan Sanders",
+    "designation": "Software Developer",
+    "department": "IT",
+    "salary": 45100
+  },
+  {
+    "id": 52,
+    "name": "Natalie Price",
+    "designation": "QA Engineer",
+    "department": "IT",
+    "salary": 45200
+  },
+  {
+    "id": 53,
+    "name": "Aaron Bennett",
+    "designation": "Business Analyst",
+    "department": "Business",
+    "salary": 45300
+  },
+  {
+    "id": 54,
+    "name": "Leah Wood",
+    "designation": "HR Executive",
+    "department": "HR",
+    "salary": 45400
+  },
+  {
+    "id": 55,
+    "name": "Ethan Barnes",
+    "designation": "Accountant",
+    "department": "Finance",
+    "salary": 45500
+  },
+  {
+    "id": 56,
+    "name": "Scarlett Ross",
+    "designation": "Software Developer",
+    "department": "IT",
+    "salary": 45600
+  },
+  {
+    "id": 57,
+    "name": "Gabriel Henderson",
+    "designation": "QA Engineer",
+    "department": "IT",
+    "salary": 45700
+  },
+  {
+    "id": 58,
+    "name": "Penelope Coleman",
+    "designation": "Business Analyst",
+    "department": "Business",
+    "salary": 45800
+  },
+  {
+    "id": 59,
+    "name": "Jack Jenkins",
+    "designation": "HR Executive",
+    "department": "HR",
+    "salary": 45900
+  },
+  {
+    "id": 60,
+    "name": "Aria Perry",
+    "designation": "Accountant",
+    "department": "Finance",
+    "salary": 46000
+  },
+  {
+    "id": 61,
+    "name": "Owen Powell",
+    "designation": "Software Developer",
+    "department": "IT",
+    "salary": 46100
+  },
+  {
+    "id": 62,
+    "name": "Layla Long",
+    "designation": "QA Engineer",
+    "department": "IT",
+    "salary": 46200
+  },
+  {
+    "id": 63,
+    "name": "Wyatt Patterson",
+    "designation": "Business Analyst",
+    "department": "Business",
+    "salary": 46300
+  },
+  {
+    "id": 64,
+    "name": "Nora Hughes",
+    "designation": "HR Executive",
+    "department": "HR",
+    "salary": 46400
+  },
+  {
+    "id": 65,
+    "name": "Julian Flores",
+    "designation": "Accountant",
+    "department": "Finance",
+    "salary": 46500
+  },
+  {
+    "id": 66,
+    "name": "Riley Washington",
+    "designation": "Software Developer",
+    "department": "IT",
+    "salary": 46600
+  },
+  {
+    "id": 67,
+    "name": "Levi Butler",
+    "designation": "QA Engineer",
+    "department": "IT",
+    "salary": 46700
+  },
+  {
+    "id": 68,
+    "name": "Aubrey Simmons",
+    "designation": "Business Analyst",
+    "department": "Business",
+    "salary": 46800
+  },
+  {
+    "id": 69,
+    "name": "Isaac Foster",
+    "designation": "HR Executive",
+    "department": "HR",
+    "salary": 46900
+  },
+  {
+    "id": 70,
+    "name": "Savannah Gonzales",
+    "designation": "Accountant",
+    "department": "Finance",
+    "salary": 47000
+  },
+  {
+    "id": 71,
+    "name": "Dylan Bryant",
+    "designation": "Software Developer",
+    "department": "IT",
+    "salary": 47100
+  },
+  {
+    "id": 72,
+    "name": "Brooklyn Alexander",
+    "designation": "QA Engineer",
+    "department": "IT",
+    "salary": 47200
+  },
+  {
+    "id": 73,
+    "name": "Thomas Russell",
+    "designation": "Business Analyst",
+    "department": "Business",
+    "salary": 47300
+  },
+  {
+    "id": 74,
+    "name": "Claire Griffin",
+    "designation": "HR Executive",
+    "department": "HR",
+    "salary": 47400
+  },
+  {
+    "id": 75,
+    "name": "Charles Diaz",
+    "designation": "Accountant",
+    "department": "Finance",
+    "salary": 47500
+  },
+  {
+    "id": 76,
+    "name": "Lucy Hayes",
+    "designation": "Software Developer",
+    "department": "IT",
+    "salary": 47600
+  },
+  {
+    "id": 77,
+    "name": "Isaiah Myers",
+    "designation": "QA Engineer",
+    "department": "IT",
+    "salary": 47700
+  },
+  {
+    "id": 78,
+    "name": "Audrey Ford",
+    "designation": "Business Analyst",
+    "department": "Business",
+    "salary": 47800
+  },
+  {
+    "id": 79,
+    "name": "Josiah Hamilton",
+    "designation": "HR Executive",
+    "department": "HR",
+    "salary": 47900
+  },
+  {
+    "id": 80,
+    "name": "Anna Graham",
+    "designation": "Accountant",
+    "department": "Finance",
+    "salary": 48000
+  },
+  {
+    "id": 81,
+    "name": "Caleb Sullivan",
+    "designation": "Software Developer",
+    "department": "IT",
+    "salary": 48100
+  },
+  {
+    "id": 82,
+    "name": "Bella Wallace",
+    "designation": "QA Engineer",
+    "department": "IT",
+    "salary": 48200
+  },
+  {
+    "id": 83,
+    "name": "Hunter Woods",
+    "designation": "Business Analyst",
+    "department": "Business",
+    "salary": 48300
+  },
+  {
+    "id": 84,
+    "name": "Stella West",
+    "designation": "HR Executive",
+    "department": "HR",
+    "salary": 48400
+  },
+  {
+    "id": 85,
+    "name": "Connor Jordan",
+    "designation": "Accountant",
+    "department": "Finance",
+    "salary": 48500
+  },
+  {
+    "id": 86,
+    "name": "Paisley Owens",
+    "designation": "Software Developer",
+    "department": "IT",
+    "salary": 48600
+  },
+  {
+    "id": 87,
+    "name": "Adrian Reynolds",
+    "designation": "QA Engineer",
+    "department": "IT",
+    "salary": 48700
+  },
+  {
+    "id": 88,
+    "name": "Violet Fisher",
+    "designation": "Business Analyst",
+    "department": "Business",
+    "salary": 48800
+  },
+  {
+    "id": 89,
+    "name": "Eli Ellis",
+    "designation": "HR Executive",
+    "department": "HR",
+    "salary": 48900
+  },
+  {
+    "id": 90,
+    "name": "Hazel Harrison",
+    "designation": "Accountant",
+    "department": "Finance",
+    "salary": 49000
+  },
+  {
+    "id": 91,
+    "name": "Jordan Gibson",
+    "designation": "Software Developer",
+    "department": "IT",
+    "salary": 49100
+  },
+  {
+    "id": 92,
+    "name": "Aurora McDonald",
+    "designation": "QA Engineer",
+    "department": "IT",
+    "salary": 49200
+  },
+  {
+    "id": 93,
+    "name": "Robert Cruz",
+    "designation": "Business Analyst",
+    "department": "Business",
+    "salary": 49300
+  },
+  {
+    "id": 94,
+    "name": "Ruby Marshall",
+    "designation": "HR Executive",
+    "department": "HR",
+    "salary": 49400
+  },
+  {
+    "id": 95,
+    "name": "Nathaniel Ortiz",
+    "designation": "Accountant",
+    "department": "Finance",
+    "salary": 49500
+  },
+  {
+    "id": 96,
+    "name": "Madison Gomez",
+    "designation": "Software Developer",
+    "department": "IT",
+    "salary": 49600
+  },
+  {
+    "id": 97,
+    "name": "Alexander Reed",
+    "designation": "QA Engineer",
+    "department": "IT",
+    "salary": 49700
+  },
+  {
+    "id": 98,
+    "name": "Isabella Carter",
+    "designation": "Business Analyst",
+    "department": "Business",
+    "salary": 49800
+  },
+  {
+    "id": 99,
+    "name": "Benjamin Walker",
+    "designation": "HR Executive",
+    "department": "HR",
+    "salary": 49900
+  },
+  {
+    "id": 100,
+    "name": "Charlotte Evans",
+    "designation": "Accountant",
+    "department": "Finance",
+    "salary": 50000
+  }
+]
 }

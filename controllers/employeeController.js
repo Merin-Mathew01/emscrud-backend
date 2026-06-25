@@ -1,9 +1,6 @@
 const data = require('../db.json')
 
 
-
-
-
 const addEmployee = (req,res)=>{
     try{
         const newEmployee={...req.body}
@@ -45,14 +42,21 @@ const updateEmployee = (req,res)=>{
 }
 
 const getAllemployees = (req,res)=>{
+    const page = Number(req.query.page)
+    const limit = Number(req.query.limit)
+    const startIndex = (page-1) * limit
+    const endIndex = startIndex + limit
+    let allEmployees = data.employees
     try {
         const searchText = req.query.search
         if(searchText){
-            const filteredData = data.employees.filter(emp=>emp.name.toLowerCase().includes(searchText.toLowerCase()) || emp.department.toLowerCase().includes(searchText.toLowerCase()))
-            res.status(200).json(filteredData)
-        }else{
-            res.status(200).json(data.employees)
+            allEmployees = allEmployees.filter(emp=>emp.name.toLowerCase().includes(searchText.toLowerCase()) || emp.department.toLowerCase().includes(searchText.toLowerCase()))
         }
+        const totalRecords = allEmployees.length
+        const paginatedEmployees = allEmployees.slice(startIndex,endIndex)
+        res.status(200).json({employees:paginatedEmployees,total:totalRecords})
+        
+        
         
     } catch (error) {
         console.log(error);
@@ -61,4 +65,7 @@ const getAllemployees = (req,res)=>{
 
 
 
-module.exports = {getAllemployees,addEmployee,deleteEmployee,getEmployeeDetails,updateEmployee,getAllemployees}
+
+
+
+module.exports = {getAllemployees,addEmployee,deleteEmployee,getEmployeeDetails,updateEmployee}
