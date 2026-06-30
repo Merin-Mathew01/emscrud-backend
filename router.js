@@ -1,5 +1,5 @@
 const express = require('express')
-const {getAllemployees, addEmployee, deleteEmployee, getEmployeeDetails, updateEmployee, importExcelData} = require('./controllers/employeeController')
+const {getAllemployees, addEmployee, deleteEmployee, getEmployeeDetails, updateEmployee, importExcelData,exportData} = require('./controllers/employeeController')
 
 const route = express.Router()
 
@@ -20,5 +20,8 @@ route.put('/employee/:id',updateEmployee)
 
 // import excel data
 route.post('/importEmployee',importExcelData)
+
+// export grid data
+route.get('/employees/export',exportData)
 
 module.exports = route

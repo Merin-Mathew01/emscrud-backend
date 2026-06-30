@@ -69,6 +69,7 @@ const getAllemployees = (req, res) => {
     }
 }
 
+// import excel data and permanently save data to db.json
 const importExcelData = (req, res) => {
     const importedEmployees = req.body
     fs.readFile('./db.json', "utf8", (err, data) => {
@@ -90,4 +91,15 @@ const importExcelData = (req, res) => {
     })
 
 }
-module.exports = { getAllemployees, addEmployee, deleteEmployee, getEmployeeDetails, updateEmployee, importExcelData }
+
+// export data - whole employee list to be send to export
+const exportData = (req,res)=>{
+    fs.readFile('./db.json',"utf8",(err,data)=>{
+        if(err){
+            return res.status(500).json({message:"Unable to read data"})
+        }
+        const jsonData = JSON.parse(data)        
+        res.status(200).json(jsonData.employees)
+    })
+}
+module.exports = { getAllemployees, addEmployee, deleteEmployee, getEmployeeDetails, updateEmployee, importExcelData ,exportData}
