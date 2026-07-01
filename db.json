@@ -5,980 +5,960 @@
       "name": "John Doe",
       "designation": "Software Developer",
       "department": "IT",
-      "salary": 45000
+      "salary": 45000,
+      "status": "Completed"
     },
     {
       "id": 2,
       "name": "Jane Smith",
       "designation": "QA Engineer",
       "department": "IT",
-      "salary": 42000
+      "salary": 42000,
+      "status": "Pending"
     },
     {
       "id": 3,
       "name": "Michael Johnson",
       "designation": "Project Manager",
       "department": "Management",
-      "salary": 65000
+      "salary": 65000,
+      "status": "Due"
     },
     {
       "id": 4,
       "name": "Emily Davis",
       "designation": "Business Analyst",
       "department": "Business",
-      "salary": 50000
+      "salary": 50000,
+      "status": "Cancelled"
     },
     {
       "id": 5,
       "name": "Chris Wilson",
       "designation": "UI/UX Designer",
       "department": "Design",
-      "salary": 47000
+      "salary": 47000,
+      "status": "Completed"
     },
     {
       "id": 6,
       "name": "Sarah Brown",
       "designation": "HR Executive",
       "department": "HR",
-      "salary": 40000
+      "salary": 40000,
+      "status": "Pending"
     },
     {
       "id": 7,
       "name": "David Miller",
       "designation": "DevOps Engineer",
       "department": "IT",
-      "salary": 55000
+      "salary": 55000,
+      "status": "Due"
     },
     {
       "id": 8,
       "name": "Olivia Moore",
       "designation": "Accountant",
       "department": "Finance",
-      "salary": 43000
+      "salary": 43000,
+      "status": "Cancelled"
     },
     {
       "id": 9,
       "name": "Daniel Taylor",
       "designation": "System Administrator",
       "department": "IT",
-      "salary": 48000
+      "salary": 48000,
+      "status": "Completed"
     },
     {
       "id": 10,
       "name": "Sophia Anderson",
       "designation": "Marketing Executive",
       "department": "Marketing",
-      "salary": 41000
+      "salary": 41000,
+      "status": "Pending"
     },
     {
       "id": 11,
       "name": "Liam Parker",
       "designation": "Software Developer",
       "department": "IT",
-      "salary": 41100
+      "salary": 41100,
+      "status": "Due"
     },
     {
       "id": 12,
       "name": "Emma Thompson",
       "designation": "QA Engineer",
       "department": "IT",
-      "salary": 41200
+      "salary": 41200,
+      "status": "Cancelled"
     },
     {
       "id": 13,
       "name": "Noah Mitchell",
       "designation": "Business Analyst",
       "department": "Business",
-      "salary": 41300
+      "salary": 41300,
+      "status": "Completed"
     },
     {
       "id": 14,
       "name": "Olivia Harris",
       "designation": "HR Executive",
       "department": "HR",
-      "salary": 41400
+      "salary": 41400,
+      "status": "Pending"
     },
     {
       "id": 15,
       "name": "William Scott",
       "designation": "Accountant",
       "department": "Finance",
-      "salary": 41500
+      "salary": 41500,
+      "status": "Due"
     },
     {
       "id": 16,
       "name": "Sophia Green",
       "designation": "Software Developer",
       "department": "IT",
-      "salary": 41600
+      "salary": 41600,
+      "status": "Cancelled"
     },
     {
       "id": 17,
       "name": "James Adams",
       "designation": "QA Engineer",
       "department": "IT",
-      "salary": 41700
+      "salary": 41700,
+      "status": "Completed"
     },
     {
       "id": 18,
       "name": "Ava Baker",
       "designation": "Business Analyst",
       "department": "Business",
-      "salary": 41800
+      "salary": 41800,
+      "status": "Pending"
     },
     {
       "id": 19,
       "name": "Benjamin Nelson",
       "designation": "HR Executive",
       "department": "HR",
-      "salary": 41900
+      "salary": 41900,
+      "status": "Due"
     },
     {
       "id": 20,
       "name": "Mia Carter",
       "designation": "Accountant",
       "department": "Finance",
-      "salary": 42000
+      "salary": 42000,
+      "status": "Cancelled"
     },
     {
       "id": 21,
       "name": "Lucas Turner",
       "designation": "Software Developer",
       "department": "IT",
-      "salary": 42100
+      "salary": 42100,
+      "status": "Completed"
     },
     {
       "id": 22,
       "name": "Charlotte Phillips",
       "designation": "QA Engineer",
       "department": "IT",
-      "salary": 42200
+      "salary": 42200,
+      "status": "Pending"
     },
     {
       "id": 23,
       "name": "Henry Campbell",
       "designation": "Business Analyst",
       "department": "Business",
-      "salary": 42300
+      "salary": 42300,
+      "status": "Due"
     },
     {
       "id": 24,
       "name": "Amelia Roberts",
       "designation": "HR Executive",
       "department": "HR",
-      "salary": 42400
+      "salary": 42400,
+      "status": "Cancelled"
     },
     {
       "id": 25,
       "name": "Alexander Cooper",
       "designation": "Accountant",
       "department": "Finance",
-      "salary": 42500
+      "salary": 42500,
+      "status": "Completed"
     },
     {
       "id": 26,
       "name": "Harper Evans",
       "designation": "Software Developer",
       "department": "IT",
-      "salary": 42600
+      "salary": 42600,
+      "status": "Pending"
     },
     {
       "id": 27,
       "name": "Michael Murphy",
       "designation": "QA Engineer",
       "department": "IT",
-      "salary": 42700
+      "salary": 42700,
+      "status": "Due"
     },
     {
       "id": 28,
       "name": "Evelyn Edwards",
       "designation": "Business Analyst",
       "department": "Business",
-      "salary": 42800
+      "salary": 42800,
+      "status": "Cancelled"
     },
     {
       "id": 29,
       "name": "Daniel Collins",
       "designation": "HR Executive",
       "department": "HR",
-      "salary": 42900
+      "salary": 42900,
+      "status": "Completed"
     },
     {
       "id": 30,
       "name": "Abigail Stewart",
       "designation": "Accountant",
       "department": "Finance",
-      "salary": 43000
+      "salary": 43000,
+      "status": "Pending"
     },
     {
       "id": 31,
       "name": "Matthew Sanchez",
       "designation": "Software Developer",
       "department": "IT",
-      "salary": 43100
+      "salary": 43100,
+      "status": "Due"
     },
     {
       "id": 32,
       "name": "Emily Morris",
       "designation": "QA Engineer",
       "department": "IT",
-      "salary": 43200
+      "salary": 43200,
+      "status": "Cancelled"
     },
     {
       "id": 33,
       "name": "Joseph Rogers",
       "designation": "Business Analyst",
       "department": "Business",
-      "salary": 43300
+      "salary": 43300,
+      "status": "Completed"
     },
     {
       "id": 34,
       "name": "Elizabeth Reed",
       "designation": "HR Executive",
       "department": "HR",
-      "salary": 43400
+      "salary": 43400,
+      "status": "Pending"
     },
     {
       "id": 35,
       "name": "David Cook",
       "designation": "Accountant",
       "department": "Finance",
-      "salary": 43500
+      "salary": 43500,
+      "status": "Due"
     },
     {
       "id": 36,
       "name": "Sofia Morgan",
       "designation": "Software Developer",
       "department": "IT",
-      "salary": 43600
+      "salary": 43600,
+      "status": "Cancelled"
     },
     {
       "id": 37,
       "name": "Samuel Bell",
       "designation": "QA Engineer",
       "department": "IT",
-      "salary": 43700
+      "salary": 43700,
+      "status": "Completed"
     },
     {
       "id": 38,
       "name": "Ella Bailey",
       "designation": "Business Analyst",
       "department": "Business",
-      "salary": 43800
+      "salary": 43800,
+      "status": "Pending"
     },
     {
       "id": 39,
       "name": "Andrew Richardson",
       "designation": "HR Executive",
       "department": "HR",
-      "salary": 43900
+      "salary": 43900,
+      "status": "Due"
     },
     {
       "id": 40,
       "name": "Grace Cox",
       "designation": "Accountant",
       "department": "Finance",
-      "salary": 44000
+      "salary": 44000,
+      "status": "Cancelled"
     },
     {
       "id": 41,
       "name": "Christopher Howard",
       "designation": "Software Developer",
       "department": "IT",
-      "salary": 44100
+      "salary": 44100,
+      "status": "Completed"
     },
     {
       "id": 42,
       "name": "Chloe Ward",
       "designation": "QA Engineer",
       "department": "IT",
-      "salary": 44200
+      "salary": 44200,
+      "status": "Pending"
     },
     {
       "id": 43,
       "name": "Joshua Torres",
       "designation": "Business Analyst",
       "department": "Business",
-      "salary": 44300
+      "salary": 44300,
+      "status": "Due"
     },
     {
       "id": 44,
       "name": "Victoria Peterson",
       "designation": "HR Executive",
       "department": "HR",
-      "salary": 44400
+      "salary": 44400,
+      "status": "Cancelled"
     },
     {
       "id": 45,
       "name": "Nathan Gray",
       "designation": "Accountant",
       "department": "Finance",
-      "salary": 44500
+      "salary": 44500,
+      "status": "Completed"
     },
     {
       "id": 46,
       "name": "Lily Ramirez",
       "designation": "Software Developer",
       "department": "IT",
-      "salary": 44600
+      "salary": 44600,
+      "status": "Pending"
     },
     {
       "id": 47,
       "name": "Ryan James",
       "designation": "QA Engineer",
       "department": "IT",
-      "salary": 44700
+      "salary": 44700,
+      "status": "Due"
     },
     {
       "id": 48,
       "name": "Hannah Watson",
       "designation": "Business Analyst",
       "department": "Business",
-      "salary": 44800
+      "salary": 44800,
+      "status": "Cancelled"
     },
     {
       "id": 49,
       "name": "Christian Brooks",
       "designation": "HR Executive",
       "department": "HR",
-      "salary": 44900
+      "salary": 44900,
+      "status": "Completed"
     },
     {
       "id": 50,
       "name": "Zoe Kelly",
       "designation": "Accountant",
       "department": "Finance",
-      "salary": 45000
+      "salary": 45000,
+      "status": "Pending"
     },
     {
       "id": 51,
       "name": "Jonathan Sanders",
       "designation": "Software Developer",
       "department": "IT",
-      "salary": 45100
+      "salary": 45100,
+      "status": "Due"
     },
     {
       "id": 52,
       "name": "Natalie Price",
       "designation": "QA Engineer",
       "department": "IT",
-      "salary": 45200
+      "salary": 45200,
+      "status": "Cancelled"
     },
     {
       "id": 53,
       "name": "Aaron Bennett",
       "designation": "Business Analyst",
       "department": "Business",
-      "salary": 45300
+      "salary": 45300,
+      "status": "Completed"
     },
     {
       "id": 54,
       "name": "Leah Wood",
       "designation": "HR Executive",
       "department": "HR",
-      "salary": 45400
+      "salary": 45400,
+      "status": "Pending"
     },
     {
       "id": 55,
       "name": "Ethan Barnes",
       "designation": "Accountant",
       "department": "Finance",
-      "salary": 45500
+      "salary": 45500,
+      "status": "Due"
     },
     {
       "id": 56,
       "name": "Scarlett Ross",
       "designation": "Software Developer",
       "department": "IT",
-      "salary": 45600
+      "salary": 45600,
+      "status": "Cancelled"
     },
     {
       "id": 57,
       "name": "Gabriel Henderson",
       "designation": "QA Engineer",
       "department": "IT",
-      "salary": 45700
+      "salary": 45700,
+      "status": "Completed"
     },
     {
       "id": 58,
       "name": "Penelope Coleman",
       "designation": "Business Analyst",
       "department": "Business",
-      "salary": 45800
+      "salary": 45800,
+      "status": "Pending"
     },
     {
       "id": 59,
       "name": "Jack Jenkins",
       "designation": "HR Executive",
       "department": "HR",
-      "salary": 45900
+      "salary": 45900,
+      "status": "Due"
     },
     {
       "id": 60,
       "name": "Aria Perry",
       "designation": "Accountant",
       "department": "Finance",
-      "salary": 46000
+      "salary": 46000,
+      "status": "Cancelled"
     },
     {
       "id": 61,
       "name": "Owen Powell",
       "designation": "Software Developer",
       "department": "IT",
-      "salary": 46100
+      "salary": 46100,
+      "status": "Completed"
     },
     {
       "id": 62,
       "name": "Layla Long",
       "designation": "QA Engineer",
       "department": "IT",
-      "salary": 46200
+      "salary": 46200,
+      "status": "Pending"
     },
     {
       "id": 63,
       "name": "Wyatt Patterson",
       "designation": "Business Analyst",
       "department": "Business",
-      "salary": 46300
+      "salary": 46300,
+      "status": "Due"
     },
     {
       "id": 64,
       "name": "Nora Hughes",
       "designation": "HR Executive",
       "department": "HR",
-      "salary": 46400
+      "salary": 46400,
+      "status": "Cancelled"
     },
     {
       "id": 65,
       "name": "Julian Flores",
       "designation": "Accountant",
       "department": "Finance",
-      "salary": 46500
+      "salary": 46500,
+      "status": "Completed"
     },
     {
       "id": 66,
       "name": "Riley Washington",
       "designation": "Software Developer",
       "department": "IT",
-      "salary": 46600
+      "salary": 46600,
+      "status": "Pending"
     },
     {
       "id": 67,
       "name": "Levi Butler",
       "designation": "QA Engineer",
       "department": "IT",
-      "salary": 46700
+      "salary": 46700,
+      "status": "Due"
     },
     {
       "id": 68,
       "name": "Aubrey Simmons",
       "designation": "Business Analyst",
       "department": "Business",
-      "salary": 46800
+      "salary": 46800,
+      "status": "Cancelled"
     },
     {
       "id": 69,
       "name": "Isaac Foster",
       "designation": "HR Executive",
       "department": "HR",
-      "salary": 46900
+      "salary": 46900,
+      "status": "Completed"
     },
     {
       "id": 70,
       "name": "Savannah Gonzales",
       "designation": "Accountant",
       "department": "Finance",
-      "salary": 47000
+      "salary": 47000,
+      "status": "Pending"
     },
     {
       "id": 71,
       "name": "Dylan Bryant",
       "designation": "Software Developer",
       "department": "IT",
-      "salary": 47100
+      "salary": 47100,
+      "status": "Due"
     },
     {
       "id": 72,
       "name": "Brooklyn Alexander",
       "designation": "QA Engineer",
       "department": "IT",
-      "salary": 47200
+      "salary": 47200,
+      "status": "Cancelled"
     },
     {
       "id": 73,
       "name": "Thomas Russell",
       "designation": "Business Analyst",
       "department": "Business",
-      "salary": 47300
+      "salary": 47300,
+      "status": "Completed"
     },
     {
       "id": 74,
       "name": "Claire Griffin",
       "designation": "HR Executive",
       "department": "HR",
-      "salary": 47400
+      "salary": 47400,
+      "status": "Pending"
     },
     {
       "id": 75,
       "name": "Charles Diaz",
       "designation": "Accountant",
       "department": "Finance",
-      "salary": 47500
+      "salary": 47500,
+      "status": "Due"
     },
     {
       "id": 76,
       "name": "Lucy Hayes",
       "designation": "Software Developer",
       "department": "IT",
-      "salary": 47600
+      "salary": 47600,
+      "status": "Cancelled"
     },
     {
       "id": 77,
       "name": "Isaiah Myers",
       "designation": "QA Engineer",
       "department": "IT",
-      "salary": 47700
+      "salary": 47700,
+      "status": "Completed"
     },
     {
       "id": 78,
       "name": "Audrey Ford",
       "designation": "Business Analyst",
       "department": "Business",
-      "salary": 47800
+      "salary": 47800,
+      "status": "Pending"
     },
     {
       "id": 79,
       "name": "Josiah Hamilton",
       "designation": "HR Executive",
       "department": "HR",
-      "salary": 47900
+      "salary": 47900,
+      "status": "Due"
     },
     {
       "id": 80,
       "name": "Anna Graham",
       "designation": "Accountant",
       "department": "Finance",
-      "salary": 48000
+      "salary": 48000,
+      "status": "Cancelled"
     },
     {
       "id": 81,
       "name": "Caleb Sullivan",
       "designation": "Software Developer",
       "department": "IT",
-      "salary": 48100
+      "salary": 48100,
+      "status": "Completed"
     },
     {
       "id": 82,
       "name": "Bella Wallace",
       "designation": "QA Engineer",
       "department": "IT",
-      "salary": 48200
+      "salary": 48200,
+      "status": "Pending"
     },
     {
       "id": 83,
       "name": "Hunter Woods",
       "designation": "Business Analyst",
       "department": "Business",
-      "salary": 48300
+      "salary": 48300,
+      "status": "Due"
     },
     {
       "id": 84,
       "name": "Stella West",
       "designation": "HR Executive",
       "department": "HR",
-      "salary": 48400
+      "salary": 48400,
+      "status": "Cancelled"
     },
     {
       "id": 85,
       "name": "Connor Jordan",
       "designation": "Accountant",
       "department": "Finance",
-      "salary": 48500
+      "salary": 48500,
+      "status": "Completed"
     },
     {
       "id": 86,
       "name": "Paisley Owens",
       "designation": "Software Developer",
       "department": "IT",
-      "salary": 48600
+      "salary": 48600,
+      "status": "Pending"
     },
     {
       "id": 87,
       "name": "Adrian Reynolds",
       "designation": "QA Engineer",
       "department": "IT",
-      "salary": 48700
+      "salary": 48700,
+      "status": "Due"
     },
     {
       "id": 88,
       "name": "Violet Fisher",
       "designation": "Business Analyst",
       "department": "Business",
-      "salary": 48800
+      "salary": 48800,
+      "status": "Cancelled"
     },
     {
       "id": 89,
       "name": "Eli Ellis",
       "designation": "HR Executive",
       "department": "HR",
-      "salary": 48900
+      "salary": 48900,
+      "status": "Completed"
     },
     {
       "id": 90,
       "name": "Hazel Harrison",
       "designation": "Accountant",
       "department": "Finance",
-      "salary": 49000
+      "salary": 49000,
+      "status": "Pending"
     },
     {
       "id": 91,
       "name": "Jordan Gibson",
       "designation": "Software Developer",
       "department": "IT",
-      "salary": 49100
+      "salary": 49100,
+      "status": "Due"
     },
     {
       "id": 92,
       "name": "Aurora McDonald",
       "designation": "QA Engineer",
       "department": "IT",
-      "salary": 49200
+      "salary": 49200,
+      "status": "Cancelled"
     },
     {
       "id": 93,
       "name": "Robert Cruz",
       "designation": "Business Analyst",
       "department": "Business",
-      "salary": 49300
+      "salary": 49300,
+      "status": "Completed"
     },
     {
       "id": 94,
       "name": "Ruby Marshall",
       "designation": "HR Executive",
       "department": "HR",
-      "salary": 49400
+      "salary": 49400,
+      "status": "Pending"
     },
     {
       "id": 95,
       "name": "Nathaniel Ortiz",
       "designation": "Accountant",
       "department": "Finance",
-      "salary": 49500
+      "salary": 49500,
+      "status": "Due"
     },
     {
       "id": 96,
       "name": "Madison Gomez",
       "designation": "Software Developer",
       "department": "IT",
-      "salary": 49600
+      "salary": 49600,
+      "status": "Cancelled"
     },
     {
       "id": 97,
       "name": "Alexander Reed",
       "designation": "QA Engineer",
       "department": "IT",
-      "salary": 49700
+      "salary": 49700,
+      "status": "Completed"
     },
     {
       "id": 98,
       "name": "Isabella Carter",
       "designation": "Business Analyst",
       "department": "Business",
-      "salary": 49800
+      "salary": 49800,
+      "status": "Pending"
     },
     {
       "id": 99,
       "name": "Benjamin Walker",
       "designation": "HR Executive",
       "department": "HR",
-      "salary": 49900
+      "salary": 49900,
+      "status": "Due"
     },
     {
       "id": 100,
       "name": "Charlotte Evans",
       "designation": "Accountant",
       "department": "Finance",
-      "salary": 50000
+      "salary": 50000,
+      "status": "Cancelled"
     },
     {
       "id": 101,
       "name": "Emma Thompson",
       "designation": "QA Engineer",
       "department": "IT",
-      "salary": 41200
+      "salary": 41200,
+      "status": "Completed"
     },
     {
       "id": 102,
       "name": "Liam Johnson",
       "designation": "Software Engineer",
       "department": "IT",
-      "salary": 58500
+      "salary": 58500,
+      "status": "Pending"
     },
     {
       "id": 103,
       "name": "Olivia Brown",
       "designation": "HR Executive",
       "department": "HR",
-      "salary": 43800
+      "salary": 43800,
+      "status": "Due"
     },
     {
       "id": 104,
       "name": "Noah Williams",
       "designation": "Product Manager",
       "department": "Product",
-      "salary": 78500
+      "salary": 78500,
+      "status": "Cancelled"
     },
     {
       "id": 105,
       "name": "Ava Jones",
       "designation": "UI/UX Designer",
       "department": "Design",
-      "salary": 56200
+      "salary": 56200,
+      "status": "Completed"
     },
     {
       "id": 106,
       "name": "William Garcia",
       "designation": "DevOps Engineer",
       "department": "IT",
-      "salary": 69800
+      "salary": 69800,
+      "status": "Pending"
     },
     {
       "id": 107,
       "name": "Sophia Miller",
       "designation": "Business Analyst",
       "department": "Business",
-      "salary": 53400
+      "salary": 53400,
+      "status": "Due"
     },
     {
       "id": 108,
       "name": "James Davis",
       "designation": "Data Analyst",
       "department": "Analytics",
-      "salary": 61200
+      "salary": 61200,
+      "status": "Cancelled"
     },
     {
       "id": 109,
       "name": "Isabella Rodriguez",
       "designation": "Marketing Executive",
       "department": "Marketing",
-      "salary": 47200
+      "salary": 47200,
+      "status": "Completed"
     },
     {
       "id": 110,
       "name": "Benjamin Martinez",
       "designation": "Finance Manager",
       "department": "Finance",
-      "salary": 82300
+      "salary": 82300,
+      "status": "Pending"
     },
     {
       "id": 111,
       "name": "Charlotte Hernandez",
       "designation": "QA Engineer",
       "department": "IT",
-      "salary": 42800
+      "salary": 42800,
+      "status": "Due"
     },
     {
       "id": 112,
       "name": "Ethan Lopez",
       "designation": "System Administrator",
       "department": "IT",
-      "salary": 59500
+      "salary": 59500,
+      "status": "Cancelled"
     },
     {
       "id": 113,
       "name": "Amelia Gonzalez",
       "designation": "Recruiter",
       "department": "HR",
-      "salary": 45500
+      "salary": 45500,
+      "status": "Completed"
     },
     {
       "id": 114,
       "name": "Mason Wilson",
       "designation": "Backend Developer",
       "department": "IT",
-      "salary": 67200
+      "salary": 67200,
+      "status": "Pending"
     },
     {
       "id": 115,
       "name": "Mia Anderson",
       "designation": "Frontend Developer",
       "department": "IT",
-      "salary": 64800
+      "salary": 64800,
+      "status": "Due"
     },
     {
       "id": 116,
       "name": "Logan Thomas",
       "designation": "Sales Executive",
       "department": "Sales",
-      "salary": 48900
+      "salary": 48900,
+      "status": "Cancelled"
     },
     {
       "id": 117,
       "name": "Harper Taylor",
       "designation": "Customer Success Manager",
       "department": "Support",
-      "salary": 51700
+      "salary": 51700,
+      "status": "Completed"
     },
     {
       "id": 118,
       "name": "Lucas Moore",
       "designation": "Security Engineer",
       "department": "IT",
-      "salary": 73600
+      "salary": 73600,
+      "status": "Pending"
     },
     {
       "id": 119,
       "name": "Evelyn Jackson",
       "designation": "Project Coordinator",
       "department": "Operations",
-      "salary": 50200
+      "salary": 50200,
+      "status": "Due"
     },
     {
       "id": 120,
       "name": "Alexander Martin",
       "designation": "Cloud Engineer",
       "department": "IT",
-      "salary": 75400
-    },
-    {
-      "id": 101,
-      "name": "Emma Thompson",
-      "designation": "QA Engineer",
-      "department": "IT",
-      "salary": 41200
-    },
-    {
-      "id": 102,
-      "name": "Liam Johnson",
-      "designation": "Software Engineer",
-      "department": "IT",
-      "salary": 58500
-    },
-    {
-      "id": 103,
-      "name": "Olivia Brown",
-      "designation": "HR Executive",
-      "department": "HR",
-      "salary": 43800
-    },
-    {
-      "id": 104,
-      "name": "Noah Williams",
-      "designation": "Product Manager",
-      "department": "Product",
-      "salary": 78500
-    },
-    {
-      "id": 105,
-      "name": "Ava Jones",
-      "designation": "UI/UX Designer",
-      "department": "Design",
-      "salary": 56200
-    },
-    {
-      "id": 106,
-      "name": "William Garcia",
-      "designation": "DevOps Engineer",
-      "department": "IT",
-      "salary": 69800
-    },
-    {
-      "id": 107,
-      "name": "Sophia Miller",
-      "designation": "Business Analyst",
-      "department": "Business",
-      "salary": 53400
-    },
-    {
-      "id": 108,
-      "name": "James Davis",
-      "designation": "Data Analyst",
-      "department": "Analytics",
-      "salary": 61200
-    },
-    {
-      "id": 109,
-      "name": "Isabella Rodriguez",
-      "designation": "Marketing Executive",
-      "department": "Marketing",
-      "salary": 47200
-    },
-    {
-      "id": 110,
-      "name": "Benjamin Martinez",
-      "designation": "Finance Manager",
-      "department": "Finance",
-      "salary": 82300
-    },
-    {
-      "id": 111,
-      "name": "Charlotte Hernandez",
-      "designation": "QA Engineer",
-      "department": "IT",
-      "salary": 42800
-    },
-    {
-      "id": 112,
-      "name": "Ethan Lopez",
-      "designation": "System Administrator",
-      "department": "IT",
-      "salary": 59500
-    },
-    {
-      "id": 113,
-      "name": "Amelia Gonzalez",
-      "designation": "Recruiter",
-      "department": "HR",
-      "salary": 45500
-    },
-    {
-      "id": 114,
-      "name": "Mason Wilson",
-      "designation": "Backend Developer",
-      "department": "IT",
-      "salary": 67200
-    },
-    {
-      "id": 115,
-      "name": "Mia Anderson",
-      "designation": "Frontend Developer",
-      "department": "IT",
-      "salary": 64800
-    },
-    {
-      "id": 116,
-      "name": "Logan Thomas",
-      "designation": "Sales Executive",
-      "department": "Sales",
-      "salary": 48900
-    },
-    {
-      "id": 117,
-      "name": "Harper Taylor",
-      "designation": "Customer Success Manager",
-      "department": "Support",
-      "salary": 51700
-    },
-    {
-      "id": 118,
-      "name": "Lucas Moore",
-      "designation": "Security Engineer",
-      "department": "IT",
-      "salary": 73600
-    },
-    {
-      "id": 119,
-      "name": "Evelyn Jackson",
-      "designation": "Project Coordinator",
-      "department": "Operations",
-      "salary": 50200
-    },
-    {
-      "id": 120,
-      "name": "Alexander Martin",
-      "designation": "Cloud Engineer",
-      "department": "IT",
-      "salary": 75400
+      "salary": 75400,
+      "status": "Cancelled"
     }
   ]
 }
